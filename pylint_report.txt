@@ -1,0 +1,710 @@
+************* Module accounts
+accounts\__init__.py:1:0: E5110: Django was not configured. For more information run pylint --load-plugins=pylint_django --help-msg=django-not-configured (django-not-configured)
+************* Module accounts.admin
+accounts\admin.py:9:0: C0304: Final newline missing (missing-final-newline)
+************* Module accounts.bio_generator
+accounts\bio_generator.py:18:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\bio_generator.py:24:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\bio_generator.py:27:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\bio_generator.py:28:0: C0301: Line too long (128/100) (line-too-long)
+accounts\bio_generator.py:51:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\bio_generator.py:59:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\bio_generator.py:94:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\bio_generator.py:97:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\bio_generator.py:103:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\bio_generator.py:111:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\bio_generator.py:112:0: C0301: Line too long (143/100) (line-too-long)
+accounts\bio_generator.py:121:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\bio_generator.py:124:0: C0301: Line too long (112/100) (line-too-long)
+accounts\bio_generator.py:127:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\bio_generator.py:28:4: R0917: Too many positional arguments (8/5) (too-many-positional-arguments)
+accounts\bio_generator.py:104:15: W0718: Catching too general exception Exception (broad-exception-caught)
+accounts\bio_generator.py:28:113: W0613: Unused argument 'language' (unused-argument)
+accounts\bio_generator.py:112:4: R0917: Too many positional arguments (7/5) (too-many-positional-arguments)
+accounts\bio_generator.py:136:4: W0603: Using the global statement (global-statement)
+************* Module accounts.forms
+accounts\forms.py:18:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\forms.py:21:0: C0301: Line too long (117/100) (line-too-long)
+accounts\forms.py:22:0: C0301: Line too long (108/100) (line-too-long)
+accounts\forms.py:24:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\forms.py:27:23: C0303: Trailing whitespace (trailing-whitespace)
+accounts\forms.py:30:0: C0301: Line too long (105/100) (line-too-long)
+accounts\forms.py:48:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\forms.py:53:0: C0301: Line too long (102/100) (line-too-long)
+accounts\forms.py:54:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\forms.py:57:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\forms.py:61:0: C0301: Line too long (175/100) (line-too-long)
+accounts\forms.py:62:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\forms.py:75:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\forms.py:83:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\forms.py:84:0: C0301: Line too long (116/100) (line-too-long)
+accounts\forms.py:86:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\forms.py:93:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\forms.py:98:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\forms.py:101:0: C0304: Final newline missing (missing-final-newline)
+accounts\forms.py:4:0: E5142: User model imported from django.contrib.auth.models (imported-auth-user)
+accounts\forms.py:6:0: W0611: Unused Profile imported from models (unused-import)
+************* Module accounts.models
+accounts\models.py:16:0: C0301: Line too long (129/100) (line-too-long)
+accounts\models.py:18:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\models.py:21:0: C0301: Line too long (139/100) (line-too-long)
+accounts\models.py:22:0: C0301: Line too long (104/100) (line-too-long)
+accounts\models.py:3:0: E5142: User model imported from django.contrib.auth.models (imported-auth-user)
+accounts\models.py:30:24: W0613: Unused argument 'sender' (unused-argument)
+accounts\models.py:35:22: W0613: Unused argument 'sender' (unused-argument)
+************* Module accounts.tests
+accounts\tests.py:1:0: W0611: Unused TestCase imported from django.test (unused-import)
+************* Module accounts.urls
+accounts\urls.py:15:0: C0301: Line too long (105/100) (line-too-long)
+accounts\urls.py:16:0: C0301: Line too long (114/100) (line-too-long)
+accounts\urls.py:17:0: C0301: Line too long (104/100) (line-too-long)
+accounts\urls.py:3:0: C0411: third party import "django.contrib.auth.views" should be placed before local import ".views" (wrong-import-order)
+************* Module accounts.views
+accounts\views.py:21:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\views.py:24:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\views.py:29:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\views.py:41:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\views.py:47:0: C0301: Line too long (115/100) (line-too-long)
+accounts\views.py:49:0: C0301: Line too long (117/100) (line-too-long)
+accounts\views.py:53:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\views.py:57:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\views.py:59:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\views.py:67:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\views.py:90:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\views.py:92:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\views.py:97:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\views.py:124:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\views.py:130:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\views.py:141:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\views.py:150:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\views.py:161:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\views.py:175:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\views.py:181:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\views.py:185:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\views.py:189:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\views.py:50:27: W0718: Catching too general exception Exception (broad-exception-caught)
+accounts\views.py:16:4: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+accounts\views.py:61:12: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+accounts\views.py:78:12: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+accounts\views.py:88:4: C0415: Import outside toplevel (artwork.models.ArtCollection) (import-outside-toplevel)
+accounts\views.py:89:4: C0415: Import outside toplevel (blog.models.Post, blog.models.Favourites) (import-outside-toplevel)
+accounts\views.py:144:12: W0621: Redefining name 'profile' from outer scope (line 87) (redefined-outer-name)
+accounts\views.py:162:11: W0718: Catching too general exception Exception (broad-exception-caught)
+accounts\views.py:142:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+accounts\views.py:174:4: W0621: Redefining name 'profile' from outer scope (line 87) (redefined-outer-name)
+accounts\views.py:11:0: C0411: third party import "django.contrib.auth.decorators.login_required" should be placed before local imports "forms.CustomUserCreationForm", "bio_generator.get_bio_generator" (wrong-import-order)
+accounts\views.py:12:0: C0411: third party import "django.contrib.auth.logout" should be placed before local imports "forms.CustomUserCreationForm", "bio_generator.get_bio_generator" (wrong-import-order)
+accounts\views.py:13:0: C0411: standard import "os" should be placed before third party imports "django.conf.settings", "django.shortcuts.render", "django.contrib.auth.authenticate" (...) "django.views.decorators.http.require_http_methods", "django.contrib.auth.decorators.login_required", "django.contrib.auth.logout" and local imports "forms.CustomUserCreationForm", "bio_generator.get_bio_generator" (wrong-import-order)
+accounts\views.py:13:0: W0611: Unused import os (unused-import)
+************* Module accounts.migrations.0001_initial
+accounts\migrations\0001_initial.py:20:0: C0301: Line too long (117/100) (line-too-long)
+accounts\migrations\0001_initial.py:23:0: C0301: Line too long (121/100) (line-too-long)
+************* Module accounts.migrations.0009_profile_role
+accounts\migrations\0009_profile_role.py:16:0: C0301: Line too long (114/100) (line-too-long)
+************* Module accounts.migrations.0010_moderationlog
+accounts\migrations\0010_moderationlog.py:19:0: C0301: Line too long (117/100) (line-too-long)
+accounts\migrations\0010_moderationlog.py:20:0: C0301: Line too long (190/100) (line-too-long)
+accounts\migrations\0010_moderationlog.py:21:0: C0301: Line too long (147/100) (line-too-long)
+accounts\migrations\0010_moderationlog.py:28:0: C0301: Line too long (150/100) (line-too-long)
+************* Module accounts.migrations.0012_profile_art_interests_profile_art_style_profile_bio_and_more
+accounts\migrations\0012_profile_art_interests_profile_art_style_profile_bio_and_more.py:16:0: C0301: Line too long (105/100) (line-too-long)
+accounts\migrations\0012_profile_art_interests_profile_art_style_profile_bio_and_more.py:21:0: C0301: Line too long (141/100) (line-too-long)
+************* Module accounts.migrations.0014_alter_profile_art_interests_alter_profile_art_style_and_more
+accounts\migrations\0014_alter_profile_art_interests_alter_profile_art_style_and_more.py:16:0: C0301: Line too long (103/100) (line-too-long)
+accounts\migrations\0014_alter_profile_art_interests_alter_profile_art_style_and_more.py:21:0: C0301: Line too long (142/100) (line-too-long)
+************* Module accounts.tests.test_auth_cross_browser
+accounts\tests\test_auth_cross_browser.py:48:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:64:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:82:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:100:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:107:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:110:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:116:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:124:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:131:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:134:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:140:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:148:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:155:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:158:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:164:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:177:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:181:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:184:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:187:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:189:0: C0301: Line too long (108/100) (line-too-long)
+accounts\tests\test_auth_cross_browser.py:193:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:197:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:199:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:205:30: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:209:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:217:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:221:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:223:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:227:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_cross_browser.py:21:0: E5142: User model imported from django.contrib.auth.models (imported-auth-user)
+accounts\tests\test_auth_cross_browser.py:54:15: W0718: Catching too general exception Exception (broad-exception-caught)
+accounts\tests\test_auth_cross_browser.py:39:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+accounts\tests\test_auth_cross_browser.py:70:15: W0718: Catching too general exception Exception (broad-exception-caught)
+accounts\tests\test_auth_cross_browser.py:57:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+accounts\tests\test_auth_cross_browser.py:88:15: W0718: Catching too general exception Exception (broad-exception-caught)
+accounts\tests\test_auth_cross_browser.py:73:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+accounts\tests\test_auth_cross_browser.py:200:19: W0718: Catching too general exception Exception (broad-exception-caught)
+accounts\tests\test_auth_cross_browser.py:203:16: W0107: Unnecessary pass statement (unnecessary-pass)
+accounts\tests\test_auth_cross_browser.py:6:0: C0411: standard import "time" should be placed before third party import "pytest" (wrong-import-order)
+************* Module accounts.tests.test_auth_security
+accounts\tests\test_auth_security.py:22:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_security.py:27:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_security.py:40:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_security.py:50:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_security.py:54:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_security.py:56:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_security.py:72:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_security.py:81:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_security.py:85:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_security.py:87:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_security.py:101:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_security.py:112:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_security.py:115:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_security.py:118:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_security.py:121:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_security.py:130:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_security.py:145:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_security.py:151:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_security.py:156:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_security.py:160:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_security.py:162:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_security.py:176:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_security.py:192:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_security.py:197:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_security.py:208:0: C0304: Final newline missing (missing-final-newline)
+accounts\tests\test_auth_security.py:14:0: E5142: User model imported from django.contrib.auth.models (imported-auth-user)
+accounts\tests\test_auth_security.py:202:0: W0105: String statement has no effect (pointless-string-statement)
+************* Module accounts.tests.test_auth_ui
+accounts\tests\test_auth_ui.py:23:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:28:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:40:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:57:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:63:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:69:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:83:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:86:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:90:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:94:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:99:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:101:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:106:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:111:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:116:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:121:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:125:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:129:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:135:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:138:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:141:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:144:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:148:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:150:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:152:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:170:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:173:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:176:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:180:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:184:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:187:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:191:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:195:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:197:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:214:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:217:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:221:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:225:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:229:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:234:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:236:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:252:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:259:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:264:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:270:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_ui.py:283:0: C0304: Final newline missing (missing-final-newline)
+accounts\tests\test_auth_ui.py:15:0: E5142: User model imported from django.contrib.auth.models (imported-auth-user)
+accounts\tests\test_auth_ui.py:16:0: W0401: Wildcard import test_data (wildcard-import)
+accounts\tests\test_auth_ui.py:47:15: W0718: Catching too general exception Exception (broad-exception-caught)
+accounts\tests\test_auth_ui.py:56:16: W0707: Consider explicitly re-raising using 'raise Exception('ChromeDriver non disponible sur ce système') from e2' (raise-missing-from)
+accounts\tests\test_auth_ui.py:56:16: W0719: Raising too general exception: Exception (broad-exception-raised)
+accounts\tests\test_auth_ui.py:88:8: C0415: Import outside toplevel (uuid) (import-outside-toplevel)
+accounts\tests\test_auth_ui.py:113:8: C0415: Import outside toplevel (selenium.webdriver.support.ui.Select) (import-outside-toplevel)
+accounts\tests\test_auth_ui.py:275:0: W0105: String statement has no effect (pointless-string-statement)
+accounts\tests\test_auth_ui.py:6:0: C0411: standard import "time" should be placed before third party import "pytest" (wrong-import-order)
+accounts\tests\test_auth_ui.py:16:0: W0614: Unused import(s) VALID_REGISTER_DATA, INVALID_DUPLICATE_EMAIL, INVALID_PASSWORD_MISMATCH, VALID_LOGIN_DATA, INVALID_LOGIN_DATA, ADMIN_REGISTER_DATA and EDIT_PROFILE_DATA from wildcard import of test_data (unused-wildcard-import)
+************* Module accounts.tests.test_auth_unit
+accounts\tests\test_auth_unit.py:18:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:26:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:45:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:48:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:51:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:57:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:62:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:66:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:68:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:89:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:92:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:95:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:98:0: C0301: Line too long (103/100) (line-too-long)
+accounts\tests\test_auth_unit.py:99:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:102:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:104:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:126:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:129:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:133:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:136:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:138:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:159:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:162:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:166:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:170:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:172:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:193:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:196:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:199:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:203:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:205:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:213:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:215:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:220:0: C0303: Trailing whitespace (trailing-whitespace)
+accounts\tests\test_auth_unit.py:238:0: C0304: Final newline missing (missing-final-newline)
+accounts\tests\test_auth_unit.py:7:0: E5142: User model imported from django.contrib.auth.models (imported-auth-user)
+accounts\tests\test_auth_unit.py:10:0: W0401: Wildcard import test_data (wildcard-import)
+accounts\tests\test_auth_unit.py:218:15: C0121: Comparison 'user.is_staff == True' should be 'user.is_staff is True' if checking for the singleton value True, or 'user.is_staff' if testing for truthiness (singleton-comparison)
+accounts\tests\test_auth_unit.py:219:15: C0121: Comparison 'user.is_superuser == True' should be 'user.is_superuser is True' if checking for the singleton value True, or 'user.is_superuser' if testing for truthiness (singleton-comparison)
+accounts\tests\test_auth_unit.py:212:8: W0612: Unused variable 'response' (unused-variable)
+accounts\tests\test_auth_unit.py:225:0: W0105: String statement has no effect (pointless-string-statement)
+accounts\tests\test_auth_unit.py:9:0: W0611: Unused Profile imported from accounts.models (unused-import)
+accounts\tests\test_auth_unit.py:10:0: W0614: Unused import(s) INVALID_PASSWORD_MISMATCH and EDIT_PROFILE_DATA from wildcard import of test_data (unused-wildcard-import)
+************* Module accounts.tests.test_data
+accounts\tests\test_data.py:77:0: C0304: Final newline missing (missing-final-newline)
+************* Module generator.admin
+generator\admin.py:1:0: W0611: Unused admin imported from django.contrib (unused-import)
+************* Module generator.models
+generator\models.py:1:0: W0611: Unused models imported from django.db (unused-import)
+************* Module generator.tests
+generator\tests.py:1:0: W0611: Unused TestCase imported from django.test (unused-import)
+************* Module generator.views
+generator\views.py:32:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:36:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:46:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:55:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:61:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:64:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:70:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:78:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:84:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:90:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:92:0: C0301: Line too long (107/100) (line-too-long)
+generator\views.py:103:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:106:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:110:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:112:0: C0301: Line too long (138/100) (line-too-long)
+generator\views.py:113:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:121:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:124:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:145:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:158:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:162:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:165:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:170:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:174:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:183:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:192:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:195:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:198:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:204:0: C0303: Trailing whitespace (trailing-whitespace)
+generator\views.py:205:0: C0304: Final newline missing (missing-final-newline)
+generator\views.py:37:8: R1705: Unnecessary "elif" after "return", remove the leading "el" from "elif" (no-else-return)
+generator\views.py:41:12: W0719: Raising too general exception: Exception (broad-exception-raised)
+generator\views.py:43:12: W0719: Raising too general exception: Exception (broad-exception-raised)
+generator\views.py:45:12: W0719: Raising too general exception: Exception (broad-exception-raised)
+generator\views.py:54:8: C0415: Import outside toplevel (urllib.parse) (import-outside-toplevel)
+generator\views.py:65:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+generator\views.py:69:12: W0719: Raising too general exception: Exception (broad-exception-raised)
+generator\views.py:82:11: W0718: Catching too general exception Exception (broad-exception-caught)
+generator\views.py:92:12: W0707: Consider explicitly re-raising using 'raise Exception('🚫 All AI image services are temporarily unavailable. Please try again later.') from pol_error' (raise-missing-from)
+generator\views.py:92:12: W0719: Raising too general exception: Exception (broad-exception-raised)
+generator\views.py:139:19: W0718: Catching too general exception Exception (broad-exception-caught)
+generator\views.py:109:20: W0719: Raising too general exception: Exception (broad-exception-raised)
+generator\views.py:112:20: W0719: Raising too general exception: Exception (broad-exception-raised)
+generator\views.py:120:20: W0707: Consider explicitly re-raising using 'raise Exception(f'Invalid image generated: {str(img_error)}') from img_error' (raise-missing-from)
+generator\views.py:120:20: W0719: Raising too general exception: Exception (broad-exception-raised)
+generator\views.py:199:15: W0718: Catching too general exception Exception (broad-exception-caught)
+generator\views.py:172:12: C0415: Import outside toplevel (uuid) (import-outside-toplevel)
+generator\views.py:179:26: W0612: Unused variable 'created' (unused-variable)
+generator\views.py:6:0: C0411: standard import "base64" should be placed before third party imports "django.shortcuts.render", "django.contrib.auth.decorators.login_required", "django.contrib.messages", "django.core.files.base.ContentFile", "requests" (wrong-import-order)
+generator\views.py:8:0: C0411: standard import "io" should be placed before third party imports "django.shortcuts.render", "django.contrib.auth.decorators.login_required", "django.contrib.messages", "django.core.files.base.ContentFile", "requests", "PIL.Image" (wrong-import-order)
+generator\views.py:9:0: C0411: standard import "os" should be placed before third party imports "django.shortcuts.render", "django.contrib.auth.decorators.login_required", "django.contrib.messages", "django.core.files.base.ContentFile", "requests", "PIL.Image" (wrong-import-order)
+************* Module artwork
+artwork\__init__.py:1:0: C0305: Trailing newlines (trailing-newlines)
+************* Module artwork.forms
+artwork\forms.py:10:0: C0301: Line too long (102/100) (line-too-long)
+artwork\forms.py:16:0: C0301: Line too long (123/100) (line-too-long)
+artwork\forms.py:25:0: C0304: Final newline missing (missing-final-newline)
+************* Module artwork.models
+artwork\models.py:15:0: C0303: Trailing whitespace (trailing-whitespace)
+artwork\models.py:19:0: C0301: Line too long (121/100) (line-too-long)
+artwork\models.py:20:0: C0301: Line too long (122/100) (line-too-long)
+artwork\models.py:23:0: C0304: Final newline missing (missing-final-newline)
+artwork\models.py:2:0: E5142: User model imported from django.contrib.auth.models (imported-auth-user)
+************* Module artwork.tests
+artwork\tests.py:1:0: W0611: Unused TestCase imported from django.test (unused-import)
+************* Module artwork.urls
+artwork\urls.py:7:58: C0303: Trailing whitespace (trailing-whitespace)
+artwork\urls.py:9:0: C0301: Line too long (114/100) (line-too-long)
+artwork\urls.py:13:0: C0301: Line too long (123/100) (line-too-long)
+artwork\urls.py:14:0: C0301: Line too long (117/100) (line-too-long)
+artwork\urls.py:16:0: C0301: Line too long (143/100) (line-too-long)
+artwork\urls.py:17:0: C0301: Line too long (130/100) (line-too-long)
+************* Module artwork.views
+artwork\views.py:11:48: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:12:56: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:13:20: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:14:64: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:29:15: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:34:45: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:35:39: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:36:26: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:37:0: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:39:0: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:45:15: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:55:23: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:56:86: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:57:43: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:63:15: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:70:24: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:71:79: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:72:39: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:77:48: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:78:36: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:80:20: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:81:64: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:120:19: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:130:0: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:139:0: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:141:0: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:145:22: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:149:15: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:171:42: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:174:0: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:177:63: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:179:15: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:184:42: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:188:79: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:189:42: C0303: Trailing whitespace (trailing-whitespace)
+artwork\views.py:191:0: C0304: Final newline missing (missing-final-newline)
+artwork\views.py:121:4: W0621: Redefining name 'collection_detail' from outer scope (line 150) (redefined-outer-name)
+artwork\views.py:121:4: W0101: Unreachable code (unreachable)
+artwork\views.py:129:8: W0612: Unused variable 'description' (unused-variable)
+artwork\views.py:3:0: C0411: first party import "category.models.Category" should be placed before local import "models.Artwork" (wrong-import-order)
+artwork\views.py:5:0: C0411: third party import "django.contrib.auth.decorators.login_required" should be placed before first party import "category.models.Category" and local imports "models.Artwork", "forms.ArtworkForm" (wrong-import-order)
+artwork\views.py:6:0: C0411: third party import "django.http.JsonResponse" should be placed before first party import "category.models.Category" and local imports "models.Artwork", "forms.ArtworkForm" (wrong-import-order)
+artwork\views.py:7:0: C0411: third party import "django.contrib.messages" should be placed before first party import "category.models.Category" and local imports "models.Artwork", "forms.ArtworkForm" (wrong-import-order)
+artwork\views.py:5:0: C0412: Imports from package django are not grouped (ungrouped-imports)
+artwork\views.py:6:0: W0611: Unused JsonResponse imported from django.http (unused-import)
+************* Module artwork.migrations.0001_initial
+artwork\migrations\0001_initial.py:17:0: C0301: Line too long (117/100) (line-too-long)
+artwork\migrations\0001_initial.py:27:5: C0303: Trailing whitespace (trailing-whitespace)
+************* Module artwork.migrations.0002_artwork_user
+artwork\migrations\0002_artwork_user.py:19:0: C0301: Line too long (121/100) (line-too-long)
+artwork\migrations\0002_artwork_user.py:21:5: C0303: Trailing whitespace (trailing-whitespace)
+************* Module artwork.migrations.0003_remove_artwork_artist
+artwork\migrations\0003_remove_artwork_artist.py:17:5: C0303: Trailing whitespace (trailing-whitespace)
+************* Module artwork.migrations.0004_remove_artwork_creation_date
+artwork\migrations\0004_remove_artwork_creation_date.py:17:5: C0303: Trailing whitespace (trailing-whitespace)
+************* Module artwork.migrations.0005_artcollection
+artwork\migrations\0005_artcollection.py:19:0: C0301: Line too long (117/100) (line-too-long)
+artwork\migrations\0005_artcollection.py:21:0: C0301: Line too long (103/100) (line-too-long)
+artwork\migrations\0005_artcollection.py:22:0: C0301: Line too long (129/100) (line-too-long)
+artwork\migrations\0005_artcollection.py:25:5: C0303: Trailing whitespace (trailing-whitespace)
+************* Module artwork.migrations.0006_alter_artwork_category
+artwork\migrations\0006_alter_artwork_category.py:18:0: C0301: Line too long (105/100) (line-too-long)
+artwork\migrations\0006_alter_artwork_category.py:20:5: C0303: Trailing whitespace (trailing-whitespace)
+************* Module artwork.migrations.__init__
+artwork\migrations\__init__.py:1:0: C0303: Trailing whitespace (trailing-whitespace)
+************* Module blog.admin
+blog\admin.py:8:0: C0304: Final newline missing (missing-final-newline)
+************* Module blog.forms
+blog\forms.py:6:0: C0301: Line too long (113/100) (line-too-long)
+************* Module blog.models
+blog\models.py:14:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\models.py:48:0: C0301: Line too long (134/100) (line-too-long)
+blog\models.py:52:0: C0304: Final newline missing (missing-final-newline)
+blog\models.py:2:0: E5142: User model imported from django.contrib.auth.models (imported-auth-user)
+blog\models.py:20:48: E1101: Instance of 'User' has no 'profile' member (no-member)
+blog\models.py:20:15: E1101: Instance of 'User' has no 'profile' member (no-member)
+blog\models.py:33:48: E1101: Instance of 'User' has no 'profile' member (no-member)
+blog\models.py:33:15: E1101: Instance of 'User' has no 'profile' member (no-member)
+************* Module blog.tests
+blog\tests.py:1:0: W0611: Unused TestCase imported from django.test (unused-import)
+************* Module blog.urls
+blog\urls.py:6:0: C0301: Line too long (227/100) (line-too-long)
+blog\urls.py:7:15: C0303: Trailing whitespace (trailing-whitespace)
+blog\urls.py:8:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\urls.py:30:1: C0303: Trailing whitespace (trailing-whitespace)
+blog\urls.py:32:0: C0304: Final newline missing (missing-final-newline)
+blog\urls.py:3:0: C0411: third party import "django.conf.urls.static.static" should be placed before local import ".views" (wrong-import-order)
+blog\urls.py:4:0: C0411: third party import "django.conf.settings" should be placed before local import ".views" (wrong-import-order)
+************* Module blog.views
+blog\views.py:48:31: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:49:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:53:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:57:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:71:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:76:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:87:47: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:89:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:117:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:122:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:126:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:144:0: C0301: Line too long (108/100) (line-too-long)
+blog\views.py:145:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:146:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:179:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:180:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:181:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:182:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:205:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:219:0: C0301: Line too long (145/100) (line-too-long)
+blog\views.py:220:0: C0301: Line too long (145/100) (line-too-long)
+blog\views.py:231:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:233:0: C0301: Line too long (117/100) (line-too-long)
+blog\views.py:235:0: C0301: Line too long (124/100) (line-too-long)
+blog\views.py:237:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:249:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:257:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:259:0: C0301: Line too long (102/100) (line-too-long)
+blog\views.py:264:43: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:270:0: C0301: Line too long (109/100) (line-too-long)
+blog\views.py:271:0: C0301: Line too long (123/100) (line-too-long)
+blog\views.py:280:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:282:0: C0301: Line too long (117/100) (line-too-long)
+blog\views.py:284:0: C0301: Line too long (124/100) (line-too-long)
+blog\views.py:286:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:302:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:310:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:316:0: C0303: Trailing whitespace (trailing-whitespace)
+blog\views.py:317:0: C0301: Line too long (125/100) (line-too-long)
+blog\views.py:326:0: C0304: Final newline missing (missing-final-newline)
+blog\views.py:16:0: W0404: Reimport 'csrf_exempt' (imported line 8) (reimported)
+blog\views.py:20:0: W0404: Reimport 'JsonResponse' (imported line 7) (reimported)
+blog\views.py:33:0: W0105: String statement has no effect (pointless-string-statement)
+blog\views.py:42:0: W0105: String statement has no effect (pointless-string-statement)
+blog\views.py:98:0: W0105: String statement has no effect (pointless-string-statement)
+blog\views.py:134:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+blog\views.py:161:15: W0718: Catching too general exception Exception (broad-exception-caught)
+blog\views.py:156:12: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+blog\views.py:172:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+blog\views.py:187:0: C0413: Import "from django.conf import settings" should be placed at the top of the module (wrong-import-position)
+blog\views.py:228:15: W0718: Catching too general exception Exception (broad-exception-caught)
+blog\views.py:217:12: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+blog\views.py:247:0: C0413: Import "import requests" should be placed at the top of the module (wrong-import-position)
+blog\views.py:277:15: W0718: Catching too general exception Exception (broad-exception-caught)
+blog\views.py:269:12: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+blog\views.py:321:15: W0718: Catching too general exception Exception (broad-exception-caught)
+blog\views.py:9:0: C0411: standard import "json" should be placed before third party imports "django.db.models.query.QuerySet", "django.shortcuts.render", "django.http.HttpResponse" (...) "django.contrib.auth.decorators.login_required", "django.http.JsonResponse", "django.views.decorators.csrf.csrf_exempt" (wrong-import-order)
+blog\views.py:14:0: C0411: third party import "django.views.generic.ListView" should be placed before local import "models.Post" (wrong-import-order)
+blog\views.py:15:0: C0411: third party import "django.utils.decorators.method_decorator" should be placed before local import "models.Post" (wrong-import-order)
+blog\views.py:16:0: C0411: third party import "django.views.decorators.csrf.csrf_exempt" should be placed before local import "models.Post" (wrong-import-order)
+blog\views.py:20:0: C0411: third party import "django.http.JsonResponse" should be placed before local imports "models.Post", "forms.FavouriteNoteForm" (wrong-import-order)
+blog\views.py:22:0: C0411: standard import "random.randint" should be placed before third party imports "django.db.models.query.QuerySet", "django.shortcuts.render", "django.http.HttpResponse" (...) "django.utils.decorators.method_decorator", "django.views.decorators.csrf.csrf_exempt", "django.http.JsonResponse" and local imports "models.Post", "forms.FavouriteNoteForm" (wrong-import-order)
+blog\views.py:23:0: C0411: third party import "django.utils.html.format_html" should be placed before local imports "models.Post", "forms.FavouriteNoteForm" (wrong-import-order)
+blog\views.py:24:0: C0411: standard import "os" should be placed before third party imports "django.db.models.query.QuerySet", "django.shortcuts.render", "django.http.HttpResponse" (...) "django.views.decorators.csrf.csrf_exempt", "django.http.JsonResponse", "django.utils.html.format_html" and local imports "models.Post", "forms.FavouriteNoteForm" (wrong-import-order)
+blog\views.py:25:0: C0411: third party import "dotenv.load_dotenv" should be placed before local imports "models.Post", "forms.FavouriteNoteForm" (wrong-import-order)
+blog\views.py:26:0: C0411: third party import "django.contrib.messages" should be placed before local imports "models.Post", "forms.FavouriteNoteForm" (wrong-import-order)
+blog\views.py:28:0: C0411: third party import "google.generativeai" should be placed before local imports "models.Post", "forms.FavouriteNoteForm" (wrong-import-order)
+blog\views.py:187:0: C0411: third party import "django.conf.settings" should be placed before local imports "models.Post", "forms.FavouriteNoteForm" (wrong-import-order)
+blog\views.py:247:0: C0411: third party import "requests" should be placed before local imports "models.Post", "forms.FavouriteNoteForm" (wrong-import-order)
+blog\views.py:26:0: C0412: Imports from package django are not grouped (ungrouped-imports)
+blog\views.py:187:0: C0412: Imports from package django are not grouped (ungrouped-imports)
+blog\views.py:1:0: W0611: Unused QuerySet imported from django.db.models.query (unused-import)
+blog\views.py:3:0: W0611: Unused HttpResponse imported from django.http (unused-import)
+blog\views.py:14:0: W0611: Unused UpdateView imported from django.views.generic (unused-import)
+blog\views.py:15:0: W0611: Unused method_decorator imported from django.utils.decorators (unused-import)
+blog\views.py:17:0: W0611: Unused FavouriteNoteForm imported from forms (unused-import)
+blog\views.py:22:0: W0611: Unused randint imported from random (unused-import)
+blog\views.py:23:0: W0611: Unused format_html imported from django.utils.html (unused-import)
+blog\views.py:247:0: W0611: Unused import requests (unused-import)
+************* Module blog.migrations.0001_initial
+blog\migrations\0001_initial.py:21:0: C0301: Line too long (117/100) (line-too-long)
+blog\migrations\0001_initial.py:25:0: C0301: Line too long (120/100) (line-too-long)
+************* Module blog.migrations.0002_like
+blog\migrations\0002_like.py:19:0: C0301: Line too long (117/100) (line-too-long)
+blog\migrations\0002_like.py:21:0: C0301: Line too long (105/100) (line-too-long)
+blog\migrations\0002_like.py:22:0: C0301: Line too long (118/100) (line-too-long)
+************* Module blog.migrations.0004_post_liked_by
+blog\migrations\0004_post_liked_by.py:18:0: C0301: Line too long (110/100) (line-too-long)
+************* Module blog.migrations.0007_remove_post_likes_comment
+blog\migrations\0007_remove_post_likes_comment.py:24:0: C0301: Line too long (117/100) (line-too-long)
+blog\migrations\0007_remove_post_likes_comment.py:27:0: C0301: Line too long (120/100) (line-too-long)
+blog\migrations\0007_remove_post_likes_comment.py:28:0: C0301: Line too long (130/100) (line-too-long)
+************* Module blog.migrations.0009_alter_post_image_favourites
+blog\migrations\0009_alter_post_image_favourites.py:24:0: C0301: Line too long (117/100) (line-too-long)
+blog\migrations\0009_alter_post_image_favourites.py:26:0: C0301: Line too long (105/100) (line-too-long)
+blog\migrations\0009_alter_post_image_favourites.py:27:0: C0301: Line too long (118/100) (line-too-long)
+************* Module blog.migrations.0010_favourites_added_on_favourites_priority
+blog\migrations\0010_favourites_added_on_favourites_priority.py:22:0: C0301: Line too long (138/100) (line-too-long)
+************* Module category.admin
+category\admin.py:15:0: C0304: Final newline missing (missing-final-newline)
+************* Module category.forms
+category\forms.py:12:0: C0304: Final newline missing (missing-final-newline)
+************* Module category.models
+category\models.py:13:0: C0303: Trailing whitespace (trailing-whitespace)
+************* Module category.serializers
+category\serializers.py:12:0: C0304: Final newline missing (missing-final-newline)
+************* Module category.tests
+category\tests.py:1:0: W0611: Unused TestCase imported from django.test (unused-import)
+************* Module category.urls
+category\urls.py:12:0: C0301: Line too long (105/100) (line-too-long)
+category\urls.py:13:0: C0301: Line too long (116/100) (line-too-long)
+category\urls.py:14:0: C0301: Line too long (125/100) (line-too-long)
+category\urls.py:15:0: C0301: Line too long (125/100) (line-too-long)
+category\urls.py:16:0: C0301: Line too long (124/100) (line-too-long)
+category\urls.py:17:0: C0301: Line too long (137/100) (line-too-long)
+************* Module category.views
+category\views.py:38:0: C0301: Line too long (101/100) (line-too-long)
+category\views.py:76:0: C0301: Line too long (106/100) (line-too-long)
+category\views.py:85:0: C0303: Trailing whitespace (trailing-whitespace)
+category\views.py:109:0: C0301: Line too long (130/100) (line-too-long)
+category\views.py:113:0: C0303: Trailing whitespace (trailing-whitespace)
+category\views.py:166:0: C0301: Line too long (105/100) (line-too-long)
+category\views.py:179:0: C0303: Trailing whitespace (trailing-whitespace)
+category\views.py:208:0: C0303: Trailing whitespace (trailing-whitespace)
+category\views.py:211:0: C0303: Trailing whitespace (trailing-whitespace)
+category\views.py:221:0: C0303: Trailing whitespace (trailing-whitespace)
+category\views.py:224:0: C0303: Trailing whitespace (trailing-whitespace)
+category\views.py:230:0: C0303: Trailing whitespace (trailing-whitespace)
+category\views.py:237:0: C0303: Trailing whitespace (trailing-whitespace)
+category\views.py:254:0: C0303: Trailing whitespace (trailing-whitespace)
+category\views.py:259:0: C0304: Final newline missing (missing-final-newline)
+category\views.py:7:0: W0404: Reimport 'render' (imported line 2) (reimported)
+category\views.py:7:0: W0404: Reimport 'get_object_or_404' (imported line 2) (reimported)
+category\views.py:87:15: W3101: Missing timeout argument for method 'post' can cause your program to hang indefinitely (missing-timeout)
+category\views.py:95:0: E0102: function already defined line 55 (function-redefined)
+category\views.py:130:23: W0718: Catching too general exception Exception (broad-exception-caught)
+category\views.py:169:0: C0413: Import "import google.generativeai as genai" should be placed at the top of the module (wrong-import-position)
+category\views.py:170:0: W0404: Reimport 'settings' (imported line 6) (reimported)
+category\views.py:170:0: C0413: Import "from django.conf import settings" should be placed at the top of the module (wrong-import-position)
+category\views.py:257:11: W0718: Catching too general exception Exception (broad-exception-caught)
+category\views.py:6:0: C0411: third party import "django.conf.settings" should be placed before local imports "models.Category", "forms.CategoryForm", "serializers.SubcategorySerializer" (wrong-import-order)
+category\views.py:7:0: C0411: third party import "django.shortcuts.render" should be placed before local imports "models.Category", "forms.CategoryForm", "serializers.SubcategorySerializer" (wrong-import-order)
+category\views.py:8:0: C0411: third party import "requests" should be placed before local imports "models.Category", "forms.CategoryForm", "serializers.SubcategorySerializer" (wrong-import-order)
+category\views.py:9:0: C0411: standard import "os" should be placed before third party imports "django.http.JsonResponse", "django.shortcuts.render", "django.conf.settings", "django.shortcuts.render", "requests" and local imports "models.Category", "forms.CategoryForm", "serializers.SubcategorySerializer" (wrong-import-order)
+category\views.py:10:0: C0411: third party import "dotenv.load_dotenv" should be placed before local imports "models.Category", "forms.CategoryForm", "serializers.SubcategorySerializer" (wrong-import-order)
+category\views.py:11:0: C0411: third party import "requests.post" should be placed before local imports "models.Category", "forms.CategoryForm", "serializers.SubcategorySerializer" (wrong-import-order)
+category\views.py:12:0: C0411: third party import "django.views.decorators.csrf.csrf_exempt" should be placed before local imports "models.Category", "forms.CategoryForm", "serializers.SubcategorySerializer" (wrong-import-order)
+category\views.py:13:0: C0411: third party import "django.contrib.auth.decorators.login_required" should be placed before local imports "models.Category", "forms.CategoryForm", "serializers.SubcategorySerializer" (wrong-import-order)
+category\views.py:169:0: C0411: third party import "google.generativeai" should be placed before local imports "models.Category", "forms.CategoryForm", "serializers.SubcategorySerializer" (wrong-import-order)
+category\views.py:170:0: C0411: third party import "django.conf.settings" should be placed before local imports "models.Category", "forms.CategoryForm", "serializers.SubcategorySerializer" (wrong-import-order)
+category\views.py:12:0: C0412: Imports from package django are not grouped (ungrouped-imports)
+category\views.py:170:0: C0412: Imports from package django are not grouped (ungrouped-imports)
+category\views.py:5:0: W0611: Unused SubcategorySerializer imported from serializers (unused-import)
+category\views.py:8:0: W0611: Unused import requests (unused-import)
+category\views.py:9:0: W0611: Unused import os (unused-import)
+************* Module category.migrations.0001_initial
+category\migrations\0001_initial.py:17:0: C0301: Line too long (117/100) (line-too-long)
+************* Module category.migrations.0003_subcategory
+category\migrations\0003_subcategory.py:17:0: C0301: Line too long (117/100) (line-too-long)
+category\migrations\0003_subcategory.py:20:0: C0301: Line too long (147/100) (line-too-long)
+************* Module home.admin
+home\admin.py:1:0: W0611: Unused admin imported from django.contrib (unused-import)
+************* Module home.tests
+home\tests.py:1:0: W0611: Unused TestCase imported from django.test (unused-import)
+************* Module home.migrations.0001_initial
+home\migrations\0001_initial.py:17:0: C0301: Line too long (117/100) (line-too-long)
+************* Module home.migrations.__init__
+home\migrations\__init__.py:1:0: R0801: Similar lines in 2 files
+==artwork.migrations.0001_initial:[5:18]
+==home.migrations.0001_initial:[5:18]
+class Migration(migrations.Migration):
+
+    initial = True
+
+    dependencies = [
+    ]
+
+    operations = [
+        migrations.CreateModel(
+            name='Artwork',
+            fields=[
+                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('title', models.CharField(max_length=255)), (duplicate-code)
+home\migrations\__init__.py:1:0: R0801: Similar lines in 2 files
+==accounts.migrations.0007_alter_profile_photo:[9:18]
+==accounts.migrations.0013_alter_profile_photo:[9:18]
+    ]
+
+    operations = [
+        migrations.AlterField(
+            model_name='profile',
+            name='photo',
+            field=models.ImageField(blank=True, null=True, upload_to=''),
+        ),
+    ] (duplicate-code)
+home\migrations\__init__.py:1:0: R0801: Similar lines in 2 files
+==accounts.migrations.0006_alter_profile_photo:[9:18]
+==accounts.migrations.0008_alter_profile_photo:[9:18]
+    ]
+
+    operations = [
+        migrations.AlterField(
+            model_name='profile',
+            name='photo',
+            field=models.ImageField(blank=True, null=True, upload_to='profile_photos/'),
+        ),
+    ] (duplicate-code)
+home\migrations\__init__.py:1:0: R0801: Similar lines in 2 files
+==accounts.migrations.0002_profile_photo:[9:18]
+==accounts.migrations.0004_profile_photo:[9:18]
+    ]
+
+    operations = [
+        migrations.AddField(
+            model_name='profile',
+            name='photo',
+            field=models.ImageField(blank=True, null=True, upload_to='profile_photos/'),
+        ),
+    ] (duplicate-code)
+home\migrations\__init__.py:1:0: R0801: Similar lines in 2 files
+==accounts.migrations.0001_initial:[7:17]
+==blog.migrations.0001_initial:[8:18]
+class Migration(migrations.Migration):
+
+    initial = True
+
+    dependencies = [
+        migrations.swappable_dependency(settings.AUTH_USER_MODEL),
+    ]
+
+    operations = [
+        migrations.CreateModel( (duplicate-code)
+home\migrations\__init__.py:1:0: R0801: Similar lines in 2 files
+==artwork.migrations.0001_initial:[5:14]
+==category.migrations.0001_initial:[5:14]
+class Migration(migrations.Migration):
+
+    initial = True
+
+    dependencies = [
+    ]
+
+    operations = [
+        migrations.CreateModel( (duplicate-code)
+home\migrations\__init__.py:1:0: R0801: Similar lines in 2 files
+==accounts.tests.test_auth_security:[136:141]
+==accounts.tests.test_data:[9:14]
+                'last_name': 'User',
+                'password1': 'TestPass123!@#',
+                'password2': 'TestPass123!@#',
+                'cin': '12345678',
+                'birthdate': '1995-01-15', (duplicate-code)
+
+------------------------------------------------------------------
+Your code has been rated at 5.98/10 (previous run: 7.24/10, -1.26)
+

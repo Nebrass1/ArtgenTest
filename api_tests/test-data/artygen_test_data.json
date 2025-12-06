@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "username": "api_test_user",
+      "email": "api_test@artygen.com", 
+      "password": "TestApiPass123!@#",
+      "first_name": "API",
+      "last_name": "Test"
+    }
+  ],
+  "prompts": [
+    {
+      "prompt": "A beautiful sunset over mountains in digital art style",
+      "style": "Digital Art"
+    },
+    {
+      "prompt": "Cyberpunk city with neon lights and futuristic buildings",
+      "style": "Cyberpunk" 
+    },
+    {
+      "prompt": "Abstract geometric patterns with vibrant colors",
+      "style": "Abstract"
+    }
+  ]
+}

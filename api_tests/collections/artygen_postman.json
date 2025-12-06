@@ -1,0 +1,107 @@
+{
+  "info": {
+    "name": "Artygen API Tests",
+    "description": "Tests API pour la plateforme Artygen",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Home Page",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/",
+          "protocol": "http",
+          "host": ["localhost:8000"],
+          "path": [""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Blog Page", 
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/blog/",
+          "protocol": "http", 
+          "host": ["localhost:8000"],
+          "path": ["blog", ""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Artwork Gallery",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/artwork/all/",
+          "protocol": "http",
+          "host": ["localhost:8000"],
+          "path": ["artwork", "all", ""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Galleries Page",
+      "request": {
+        "method": "GET", 
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/artwork/galleries/",
+          "protocol": "http",
+          "host": ["localhost:8000"],
+          "path": ["artwork", "galleries", ""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Login Page",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/accounts/login/",
+          "protocol": "http",
+          "host": ["localhost:8000"],
+          "path": ["accounts", "login", ""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Generator Page",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/generate/",
+          "protocol": "http",
+          "host": ["localhost:8000"],
+          "path": ["generate", ""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Profile Page", 
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/profile/",
+          "protocol": "http",
+          "host": ["localhost:8000"],
+          "path": ["profile", ""]
+        }
+      },
+      "response": []
+    }
+  ]
+}

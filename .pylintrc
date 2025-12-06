@@ -1,0 +1,25 @@
+[MASTER]
+extension-pkg-allow-list=tkinter
+
+[MESSAGES CONTROL]
+disable=
+    missing-docstring,
+    too-few-public-methods,
+    import-error,
+    no-name-in-module,
+    invalid-name
+
+[BASIC]
+good-names= 
+    i,j,k,ex,Run,_,
+    pk, id, qs, 
+    request, user, obj
+
+[DESIGN]
+max-args=10
+max-locals=20
+max-returns=6
+max-branches=20
+max-statements=50
+max-parents=10
+max-attributes=15

@@ -1,0 +1,413 @@
+{
+  "info": {
+    "name": "Artygen API Tests",
+    "description": "Tests complets des APIs de la plateforme Artygen",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:8000",
+      "type": "string"
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "exec": [
+          "// Get CSRF token for POST requests",
+          "if (pm.request.method === 'POST') {",
+          "    pm.sendRequest({",
+          "        url: pm.variables.get('base_url') + '/accounts/login/',",
+          "        method: 'GET'",
+          "    }, function (err, res) {",
+          "        if (!err) {",
+          "            var csrfToken = res.cookies.get('csrftoken');",
+          "            if (csrfToken) {",
+          "                pm.variables.set('csrf_token', csrfToken.value);",
+          "                console.log('CSRF Token set:', csrfToken.value);",
+          "            }",
+          "        }",
+          "    });",
+          "}"
+        ]
+      }
+    }
+  ],
+  "item": [
+    {
+      "name": "🔐 AUTHENTICATION - Tests d'authentification",
+      "item": [
+        {
+          "name": "TC-API-AUTH-01 - Get Login Page",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"Status code is 200\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "pm.test(\"Login page loaded\", function () {",
+                  "    pm.expect(pm.response.text()).to.include(\"login\");",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/accounts/login/",
+              "host": ["{{base_url}}"],
+              "path": ["accounts", "login", ""]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC-API-AUTH-02 - Login User",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"Status code is 200 or 302\", function () {",
+                  "    pm.expect(pm.response.code).to.be.oneOf([200, 302]);",
+                  "});",
+                  "pm.test(\"Login successful\", function () {",
+                  "    // Check for success indicators",
+                  "    var responseText = pm.response.text();",
+                  "    var isSuccess = responseText.includes(\"Success\") || ",
+                  "                   responseText.includes(\"profile\") || ",
+                  "                   responseText.includes(\"dashboard\") ||",
+                  "                   pm.response.headers.get('Location') && pm.response.headers.get('Location').includes('profile');",
+                  "    pm.expect(isSuccess).to.be.true;",
+                  "});",
+                  "// Save session cookie",
+                  "var sessionCookie = pm.cookies.get('sessionid');",
+                  "if (sessionCookie) {",
+                  "    pm.environment.set('session_id', sessionCookie);",
+                  "    console.log('Session ID saved');",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "key": "X-CSRFToken",
+                "value": "{{csrf_token}}"
+              }
+            ],
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "key": "username",
+                  "value": "{{auth_username}}"
+                },
+                {
+                  "key": "password",
+                  "value": "{{auth_password}}"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/accounts/login/",
+              "host": ["{{base_url}}"],
+              "path": ["accounts", "login", ""]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC-API-AUTH-03 - Get User Profile",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"Status code is 200\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "pm.test(\"Profile accessible\", function () {",
+                  "    pm.expect(pm.response.text()).to.include(\"profile\");",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/profile/",
+              "host": ["{{base_url}}"],
+              "path": ["profile", ""]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "🎨 GENERATOR - Tests génération IA",
+      "item": [
+        {
+          "name": "TC-API-GEN-01 - Get Generator Page",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"Status code is 200\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "pm.test(\"Generator page loaded\", function () {",
+                  "    pm.expect(pm.response.text()).to.include(\"generate\");",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/generate/",
+              "host": ["{{base_url}}"],
+              "path": ["generate", ""]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC-API-GEN-02 - Generate Image Success",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"Status code is 200\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "pm.test(\"Response time is acceptable\", function () {",
+                  "    pm.expect(pm.response.responseTime).to.be.below(30000);",
+                  "});",
+                  "pm.test(\"Image generation processed\", function () {",
+                  "    var responseText = pm.response.text();",
+                  "    var isProcessed = responseText.includes(\"image\") || ",
+                  "                     responseText.includes(\"artwork\") || ",
+                  "                     responseText.includes(\"generated\") ||",
+                  "                     responseText.includes(\"result\");",
+                  "    pm.expect(isProcessed).to.be.true;",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "key": "X-CSRFToken",
+                "value": "{{csrf_token}}"
+              }
+            ],
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "key": "prompt",
+                  "value": "A beautiful sunset over mountains in digital art style"
+                },
+                {
+                  "key": "style",
+                  "value": "Digital Art"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{base_url}}/generate/",
+              "host": ["{{base_url}}"],
+              "path": ["generate", ""]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "🖼️ ARTWORK - Tests gestion artworks",
+      "item": [
+        {
+          "name": "TC-API-ART-01 - Get All Artworks",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"Status code is 200\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "pm.test(\"Artworks page loaded\", function () {",
+                  "    var responseText = pm.response.text();",
+                  "    var hasArtworks = responseText.includes(\"artwork\") || ",
+                  "                     responseText.includes(\"gallery\") || ",
+                  "                     responseText.includes(\"collection\");",
+                  "    pm.expect(hasArtworks).to.be.true;",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/artwork/all/",
+              "host": ["{{base_url}}"],
+              "path": ["artwork", "all", ""]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC-API-ART-02 - Get Galleries",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"Status code is 200\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "pm.test(\"Galleries page accessible\", function () {",
+                  "    pm.expect(pm.response.text()).to.include(\"gallery\");",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/artwork/galleries/",
+              "host": ["{{base_url}}"],
+              "path": ["artwork", "galleries", ""]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "📝 BLOG - Tests module blog",
+      "item": [
+        {
+          "name": "TC-API-BLOG-01 - Get Blog Posts",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"Status code is 200\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "pm.test(\"Blog page accessible\", function () {",
+                  "    pm.expect(pm.response.text()).to.include(\"blog\");",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/blog/",
+              "host": ["{{base_url}}"],
+              "path": ["blog", ""]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "🏠 PAGES PUBLIQUES - Tests sans authentification",
+      "item": [
+        {
+          "name": "TC-API-HOME-01 - Home Page",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"Status code is 200\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "pm.test(\"Home page loaded\", function () {",
+                  "    pm.expect(pm.response.text()).to.include(\"Artygen\");",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/",
+              "host": ["{{base_url}}"],
+              "path": [""]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "TC-API-CAT-01 - Categories Page",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"Status code is 200\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "pm.test(\"Categories page loaded\", function () {",
+                  "    pm.expect(pm.response.text()).to.include(\"categor\");",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/category/categories/",
+              "host": ["{{base_url}}"],
+              "path": ["category", "categories", ""]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
