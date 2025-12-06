@@ -1,0 +1,58 @@
+# Production Requirements for Render - OPTIMIZED
+# Removed: Jupyter, testing tools, dev dependencies
+# This is the minimal stable set for production
+
+# Core Django
+Django==5.2.7
+gunicorn==23.0.0
+whitenoise==6.11.0
+dj-database-url==3.0.1
+psycopg2-binary==2.9.11
+
+# API Framework
+djangorestframework==3.16.1
+django-cors-headers==4.9.0
+django-filter==25.2
+django-widget-tweaks==1.5.0
+djangorestframework_simplejwt==5.5.1
+
+# Database & ORM
+sqlparse==0.5.3
+asgiref==3.10.0
+
+# AI/ML APIs
+google-generativeai==0.8.5
+openai==2.8.1
+google-api-core==2.28.1
+google-api-python-client==2.187.0
+
+# Image Processing
+Pillow==12.0.0
+opencv-python-headless==4.12.0.88
+
+# Data Processing
+pandas==2.2.3
+numpy==2.2.6
+scipy==1.15.3
+
+# ML Models
+scikit-learn==1.6.1
+onnxruntime==1.23.2
+
+# Security & Auth
+cryptography==44.0.2
+PyJWT==2.10.1
+python-dotenv==1.2.1
+
+# Networking & Utils
+requests==2.32.2
+urllib3==2.5.0
+certifi==2025.10.5
+charset-normalizer==3.4.4
+idna==3.11
+
+# Other essentials
+Jinja2==3.1.6
+MarkupSafe==3.0.2
+pytz==2025.1
+tzdata==2025.2
