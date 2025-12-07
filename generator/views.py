@@ -120,6 +120,7 @@ def _validate_and_process_image(image_bytes):
     return image
 
 
+@login_required
 def generate_image(request):
     """Generate AI artwork - PROTECTED BY CSRF"""
     if request.method != 'POST':

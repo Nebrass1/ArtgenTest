@@ -29,13 +29,16 @@ def register(request):
     # Sauvegarder l'utilisateur
     user = form.save()
     
-    # Générer la bio IA si demandée
-    bio_result = _generate_user_bio(user, form.cleaned_data)
-    _handle_bio_messages(request, bio_result)
+    # Authentifier et connecter l'utilisateur
+    user = authenticate(username=username, password=password)
+    if user is not None:
+        login(request, user)
+        messages.success(request, '✅ Registration successful! Welcome to ArtiGen.')
+        return redirect('profile')
     
-    # Messages et redirection
-    messages.success(request, '✅ Registration successful! Welcome to Artygen.')
-    return _authenticate_and_redirect(request, username, password, user)
+    # En cas d'échec d'authentification (rare)
+    messages.success(request, '✅ Registration successful! Please log in.')
+    return redirect('login')
 
 def user_login(request):
     if request.method == 'POST':

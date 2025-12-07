@@ -7,6 +7,7 @@ from django.http import JsonResponse
 from django.contrib import messages
 
 
+@login_required
 def artwork_list(request):
     search_query = request.GET.get('search', '') 
     artworks = Artwork.objects.filter(user=request.user) 
